@@ -1,0 +1,58 @@
+Student Performance Analysis - Exploratory Data Analysis (EDA)
+
+Project Overview
+
+This project explores the factors influencing student performance using Exploratory Data Analysis (EDA). We analyze a dataset containing information like study hours, attendance, parental involvement, and exam scores to uncover trends and understand how these factors relate to student success.
+
+Dataset Information
+
+Dataset Name: Student Performance Factors
+Total Entries: 6607
+Total Columns: 20
+Key Columns:
+
+- Hours_Studied - Number of hours a student studies.
+- Attendance - Student’s attendance percentage.
+- Previous_Scores - Scores from previous exams.
+- Parental_Involvement - Level of parental support (High/Medium/Low).
+- Internet_Access - Availability of internet for learning.
+- Exam_Score - Final exam score (Target variable).
+
+
+
+Data Preprocessing
+
+
+
+Handling Missing Values
+
+Missing values in 'Teacher_Quality', 'Parental_Education_Level', and 'Distance_from_Home' were filled using the mode.
+Removing Duplicates
+
+Duplicate records were removed to ensure data integrity.
+Categorizing Students by Grades
+
+A Grade (90+ marks)
+B Grade (80 - 89 marks)
+C Grade (70 - 79 marks)
+Below 70 (Needs Improvement)
+Data Visualizations & Insights
+
+Distribution of A-Grade Student Scores
+
+A histogram shows the distribution of exam scores among A-grade students.
+Study Hours vs. Exam Score (Scatter Plot)
+
+Observation: Higher study hours generally correlate with better exam performance.
+Previous Scores vs. Exam Score (Scatter Plot)
+
+Insight: Students with higher previous scores tend to score better in the final exam.
+Parental Involvement vs. Exam Score (Box Plot)
+
+Conclusion: Students with higher parental involvement generally perform better.
+Key Findings & Conclusions
+
+More study hours and higher attendance lead to better scores.
+Students with good past academic performance are likely to continue excelling.
+Parental involvement plays a significant role in student success.
+Internet access and tutoring may also contribute to improved performance.
